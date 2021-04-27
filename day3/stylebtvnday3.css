@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    font-size: 50px;
+}
+.layout1{
+    width: 100%;
+    height: 600px;
+    background-color: red;
+    box-sizing: border-box;
+    display:flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.layout1so1{
+    width: 40%;
+    height: 50%;
+    background-color: green;
+    box-sizing: border-box;
+}
+.layout1so2{
+    width: 40%;
+    height: 50%;
+    background-color: blue;
+    box-sizing: border-box;
+}
+.tong{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+}
+.tong1{
+    width: 61%;
+    height: 600px;
+    background-color: red;
+    box-sizing: border-box;
+}
+.tong2{
+    align-self:row-reverse;
+    width: 39%;
+    height: 100%;
+    background-color: blue;
+    margin-left: 15px;
+    box-sizing: border-box;
+}
+.tong3{
+    width: auto;
+    height: 50%;
+    background-color: green;
+    box-sizing: border-box;
+}
+.tonglayout1{
+    width: 100%;
+    height: 600px;
+    box-sizing:border-box;
+    display: flex;
+    justify-content:flex-start ;
+}
+.mau1{
+    width: 34%;
+    height: 100%;
+    background-color: red;
+    box-sizing: border-box;
+}
+.mau2{
+    width: 34%;
+    height: 100%;
+    background-color: green;
+    box-sizing: border-box;
+}
+.mau3{
+    width: 34%;
+    height: 100%;
+    background-color: blue;
+    box-sizing: border-box;
+}
+.lo4tong{
+    width: 100%;
+    height: 600px;
+    box-sizing:border-box;
+    display: flex;
+    justify-content:flex-start ;
+}
+.lo4tong1{
+    width: 34%;
+    height: 100%;
+    background-color: red;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+.lo4tong2{
+    width: 34%;
+    height: 100%;
+    background-color: green;
+    box-sizing: border-box;
+    margin: 0 5px 0 5px;
+}
+.lo4tong3{
+    width: 34%;
+    height: 100%;
+    background-color: blue;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
