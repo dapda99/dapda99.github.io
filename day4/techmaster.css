@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+        box-sizing: border-box;
+        font-family: Roboto,sans-serif;
+        line-height: 1.5;
+    }
+
+#navigation {
+    width: 100%;
+    height: 53px;
+    background-color: #34465c;
+    padding: 10px 30px 10px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    box-shadow: 0 4px 4px gray;
+}
+
+.logo {
+    width: 120px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.avatar {
+    width: 50px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.menu-list {
+    display: flex;
+}
+
+.menu-list li {
+    list-style-type: none;
+}
+
+.menu-list li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+.caret {
+    margin-left: 5px;
+    font-size: 18px;
+}
+.menu-lotrinh{
+    top: 100%;
+    position: absolute;
+    left: auto;
+    right: 0;
+    display: none;
+    flex-flow: column;
+    width: 200px;
+    padding: 0;
+    box-shadow: rgb(0 0 0 / 15%) 0 0 10px;
+    border: none;
+    margin-top: .25rem;
+    display: block;
+}
+.containerbody{
+    padding: 48px 15px 0 15px;
+    box-sizing: border-box;
+}
+.phandau{
+    width: 100%;
+    padding: 15px 0 15px 0;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1250px;
+    margin: 0 15px 50px 15px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+}
+.anh{
+    padding: 0 15px 0 15px;
+    box-sizing: border-box;
+    max-width: 66.666667%;
+}
+.anh img{
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px gray;
+}
+.content{
+    max-width: 33.333334%;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 15px 0 15px;
+}
+.contentc{
+    height: 21.5%;
+    width: 100%;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+    box-shadow: 0 1px 4px gray;    
+}
+.anhcontent1{
+    box-sizing: border-box;
+    max-width: 25%;
+    
+}
+.anhcontent1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.tieude{
+    height: 100%;
+    padding: 10px;
+    font-weight:bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ntieude{
+    font-size: 12px;
+    font-weight: normal;
+    color: #757575;
+}
+.qq{
+    padding: 20px 0 20px 0;
+}
+#huongdan{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: auto;
+}
+.qqchuto{
+    margin-top: 15px;
+    color: #464646;
+    font-size: 16px;
+    font-weight: bold;
+}
+.qqchunho{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #999;
+    width: 80%;
+    margin: auto;
+}
+.main-route{
+    background-color: #e4f2fd;
+    box-sizing: border-box;
+    padding: 0 15px 80px 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.frontsizelotrinh{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 24px;
+    color: #464646;
+    padding-top: 80px;
+}
+.route-item{
+    max-width: 30%;
+    margin: 50px 15px 0 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px gray;   
+    background: white; 
+}
+.route-item img{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.chu-route{
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.full-route-item{
+    display: flex;
+    flex-wrap:wrap;
+    padding-left: 20px;
+}
+.tile-route{
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.content-route{
+    margin-bottom: 10px;
+    font-weight: 300;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.date-route{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    color: #757575;
+}
+a, .a:hover, .a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+.tile-sphv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    font-size: 26px;
+}
+.sphv{
+    padding: 80px 15px 80px 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1250px;
+    color: #464646;
+}
+.left-right{
+    border: 2px solid #2196f3;
+    padding: 0 10px 0 10px;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px gray;
+}
+.content-sphv{
+    margin: 0 20px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.items-content-sphv{
+    max-width: 30%;
+    margin:20px;
+    box-shadow: 0 1px 4px gray;
+    border-radius: 4px;
+}
+
+.items-content-sphv img{
+    width: 100%;
+    border-radius: 4px;
+}
+.items-content-sphv-tile{
+    padding: 20px;
+}
+.video{
+    background-color: #e4f2fd;
+    max-width: 1250px;
+    padding: 50px 15px 80px 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.video1 iframe{
+    border-radius: 4px;
+}
+.end{
+    background-color: #464646;
+    color: #919294;
+    padding: 0 15px 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+}
+.end a:hover{
+    text-decoration: underline;
+}
+.content-end{
+    padding: 48px 15px 48px 15px;
+    font-size: 14px;
+    line-height: 2;
+}
+.content-end ul{
+    list-style:none
+}
+.icon{
+    font-size: 30px;
+    color: #919294;
+}
+span{
+    color: #fff;
+    font-size: 18px;
+}
+.khungchat{
+    position: fixed;  
+    width: 60px;
+    height: 60px;
+    background-color: rgb(0, 132, 255);
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+}
+.iconfb{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
