@@ -1,0 +1,116 @@
+body{
+    display: flex;
+    align-items: center;
+    width: 980px;
+    margin: auto;
+    padding-top: 144px;
+    padding-bottom: 80px;
+    background-color: #f0f2f5;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    width: 396px;
+    height: 335px;
+    padding: 20px 0 28px 0;
+    border-radius: 8px;
+    margin: auto;
+    border: none solid 0;
+    box-shadow: 0 1px 4px gray;
+    background-color: white;
+}
+.login1{
+    height: 20px;
+    width: 330px;
+    font-size: 17px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    padding: 14px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-left: 18px;
+}
+.dangnhap{
+    height: 60px;
+    width: 360px;
+    font-size: 20px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    border-radius: 4px;
+    font-weight: bold;
+    margin: auto;
+    background-color: #1877f2;
+    color: #fff;
+    margin-left: 18px;
+}
+.account{
+    height: 20px;
+    width: 160px;
+    font-size: 17px;
+    border: 1px solid #dddfe2;
+    padding: 16px;
+    border-radius: 6px;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    background-color: #42b72a;
+    justify-content: center;
+}
+.account:hover{
+    background-color: #36a420;
+}
+.account a{
+    color: #fff;
+    text-decoration: none;
+
+}
+.account a:hover{
+    color: #fff;
+}
+.account a:visited{
+    color: #fff;
+}
+.qmk{
+    text-align: center;
+    margin: 20px 0 20px 0;
+    border-bottom: black solid 1px;
+    padding-bottom: 20px;
+}
+.qmk a{
+    text-decoration: none;
+    color: blue;
+}
+.qmk a:hover{
+    text-decoration: underline;
+}
+.qmk a:visited{
+    text-decoration: none;
+}
+.facebook{
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -80px;
+}
+img{
+    margin: 0 0 -10px -28px;
+    height: 106px;
+}
+.vanban{
+    width: 500px;
+    line-height: 32px;
+    font-size: 28px;
+}
+.end{
+    text-align: center;
+    padding-top: 50px;
+}
+.end a{
+    text-decoration: none;
+    font-weight: bolder ;
+    color: black;
+}
+.end a:hover{
+    text-decoration:underline;
+
+}
