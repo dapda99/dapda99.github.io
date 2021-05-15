@@ -1,0 +1,26 @@
+table, th, td{
+    border: gray solid 1px;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 15px;
+    color: blue;
+}
+.stt th{
+    color: black;
+    text-align: center;
+}
+tr .stt{
+    color: black;
+}
+span{
+    color: white;
+    background-color: teal;
+    border-radius: 2px;
+}
+tr:ntn-child(even){
+    background-color: gray;
+}
+tr:ntn-child(even){
+    background-color: white ;
+}
